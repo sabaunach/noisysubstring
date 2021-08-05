@@ -1,0 +1,18 @@
+n_292_len_geq_7.txt was generated via the following:
+    ./dictgen -ll 7 -n 292 -tolower -rmpunc -ignore comment: < wiki-100k.txt > n_292_len_geq_7.txt
+n_166_len_geq_8.txt was generated via the following:
+    ./dictgen -ll 8 -n 166 -tolower -rmpunc -ignore comment: < wiki-100k.txt > n_292_len_geq_7.txt
+
+h1.txt was generated via the following:
+    ./dictgen -ll 3 -ul 16 -nn -tolower -rmpunc -ignore comment: -nl 3 29 -nl 4 35 -nl 5 42 -nl 6 48 -nl 7 53 -nl 8 55 -nl 9 52 -nl 10 43 -nl 11 31 -nl 12 18 -nl 13 8 -nl 14 3 -nl 15 1 -nl 16 0 < wiki-100k.txt > h1.txt
+h2.txt was generated via the following:
+    ./dictgen -ll 3 -ul 16 -nn -tolower -rmpunc -ignore comment: -nl 3 29 -nl 4 33 -nl 5 37 -nl 6 40 -nl 7 42 -nl 8 44 -nl 9 42 -nl 10 37 -nl 11 28 -nl 12 18 -nl 13 10 -nl 14 4 -nl 15 1 -nl 16 0 < wiki-100k.txt > h2.txt
+h3.txt was generated via the following:
+    ./dictgen -ll 3 -ul 16 -nn -tolower -rmpunc -ignore comment: -nl 3 27 -nl 4 29 -nl 5 32 -nl 6 34 -nl 7 35 -nl 8 36 -nl 9 35 -nl 10 32 -nl 11 26 -nl 12 18 -nl 13 10 -nl 14 5 -nl 15 2 -nl 16 1 < wiki-100k.txt > h3.txt
+h4.txt was generated via the following:
+    ./dictgen -ll 3 -ul 16 -nn -tolower -rmpunc -ignore comment: -nl 3 377 -nl 4 399 -nl 5 377 -nl 6 319 -nl 7 242 -nl 8 164 -nl 9 99 -nl 10 54 -nl 11 26 -nl 12 11 -nl 13 4 -nl 14 2 -nl 15 0 -nl 16 0 < wiki-100k.txt > h4.txt
+
+h1_3.txt was generated via the following:
+    ./dictgen -ll 3 -ul 16 -nn -tolower -rmpunc -ignore comment: -nl 3 87 -nl 4 105 -nl 5 126 -nl 6 144 -nl 7 159 -nl 8 165 -nl 9 156 -nl 10 129 -nl 11 93 -nl 12 54 -nl 13 24 -nl 14 9 -nl 15 3 -nl 16 0 < wiki-100k.txt > h1_3.txt
+
+Other dictionaries may be generated in a similar fashion.
