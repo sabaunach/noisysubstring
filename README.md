@@ -2,7 +2,7 @@
 
 This is an implementation and test of the noisy substring algorithm described by Kashyap and Oommen in [this paper](https://ieeexplore.ieee.org/document/1703065).
 
-This project was developed in collaboration with Jason Tran (UKY) as the final project for CS485-G, a class taught by [Dr. Jerzy Jaromczyk](https://www.engr.uky.edu/directory/jaromczyk-jerzy) centered around algorithms.
+This project was developed in collaboration with Jason Tran (UKY) as the final project for CS485-G, a class taught by [Dr. Jerzy Jaromczyk](https://www.engr.uky.edu/directory/jaromczyk-jerzy) in Spring 2020centered around algorithms and competitive programming.
 
 ## Getting Started
 
@@ -53,4 +53,6 @@ The program can be controlled at runtime by issuing commands. The following comm
 
 ## Report
 
-The file "Noisy Substring Problem.pdf" provides a summary and report of our findings on this project.
+The file [Noisy Substring Problem.pdf](https://github.com/sabaunach/noisysubstring/blob/3d3dfa7eea194e252456ff4ab82b649109c9dc29/Noisy%20Substring%20Problem.pdf) provides a summary and report of our findings on this project.
+
+A powerpoint presentation can be viewed [here.](https://docs.google.com/presentation/d/18AfP4ARZD0meC9TeL1UdEGGjnn46hwR7HXhMfWVRR1E/edit?usp=sharing)
