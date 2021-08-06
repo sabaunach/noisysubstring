@@ -11,22 +11,28 @@
  * [str]: run noisy substring algorithm on str
  * -t [n] [l_l] [l_u] [e_l] [e_u] [opts]:
  *      - do n times:
- *          - randomly choose a substring of length between l_l and l_u, inclusive, from a random word in the dictionary
- *              - if l_u >= the str.size(), the substring is guaranteed to be of length less than str.size() - 1.
- *          - make it noisy by doing betweem e_l and e_u, inclusive, random edits
- *              - CURRENT LIMITATION: unlikely, but this may underedit the string by performing certain edits that cancel each other out (i.e. delete then insert same character)
- *              - fixing this is a problem of its own
+ *          - randomly choose a substring of length between l_l and l_u,
+ *					inclusive, from a random word in the dictionary
+ *              - if l_u >= the str.size(), the substring is guaranteed to be
+ *					of length less than str.size() - 1.
+ *          - make it noisy by doing betweem e_l and e_u, inclusive, random 
+ *					edits
+ *              - LIMITATION: the string may be underedited by performing
+ *						certain edits that cancel each other out (i.e. delete
+ *						then insert same character)
  *          - run noisy substring algorithm on noisy version of substring
- *      - output frequency of noisy substring correctly estimating original substring's set
+ *      - output frequency of noisy substring correctly estimating original
+ *				substring's set
  *  Options:
  *      -o: output each test case and whether it succeeded or failed
  *      -s [seed]: randomize using seed, rather than time(NULL)
- *      -g [param]: sets parameter for geometric distrubtion used to obtain number of edits
+ *      -g [param]: sets parameter for geometric distrubtion for number of edits
  *
  * Args:
  *  -l: For [str] command, disable display of space-separated list of matches (on by default)
- *  -t: For [str] command, display sorted newline-separated list of all words paired with their minimum LD.
- *  -h: For [str] command, display the dictionary file with matches highlighted (linux)
+ *  -t: For [str] command, display sorted newline-separated list of all words 
+ *			paired with their minimum LD.
+ *  -h: For [str] command, display the dictionary file with matches highlighted (in console)
  *  -wf: For each step of k_dist, print the Wagner-Fischer Matrix
  *  -cnt: Output total number of character comparisons for each command
  *  -o: Optimize by only computing WF matrices for suffixes of x of length >= |y|.
